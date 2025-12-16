@@ -503,7 +503,10 @@ const AnalyticsPage: React.FC = () => {
                                             <Cell key={`cell-${index}`} fill={PIE_COLORS[index % PIE_COLORS.length]} />
                                         ))}
                                     </Pie>
-                                    <Tooltip contentStyle={{ backgroundColor: '#1F2937', borderColor: '#374151', color: '#fff' }} />
+                                    <Tooltip 
+                                        contentStyle={{ backgroundColor: '#1F2937', borderColor: '#374151', color: '#fff' }} 
+                                        itemStyle={{ color: '#fff' }}
+                                    />
                                     <Legend 
                                         verticalAlign="bottom" 
                                         height={36}
@@ -587,3 +590,4 @@ const AnalyticsPage: React.FC = () => {
 };
 
 export default AnalyticsPage;
+
