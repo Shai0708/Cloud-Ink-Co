@@ -1,0 +1,5 @@
+{
+  "name": "Cloud Ink",
+  "description": "A dashboard interface for Cloud Ink featuring a dynamic grid layout for various company departments and data points. The interface uses a sleek, modern color scheme.",
+  "requestFramePermissions": []
+}
